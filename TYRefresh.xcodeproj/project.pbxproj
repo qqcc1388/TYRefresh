@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876008431D4B25F700E18645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008421D4B25F700E18645 /* main.m */; };
+		876008461D4B25F700E18645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008451D4B25F700E18645 /* AppDelegate.m */; };
+		876008491D4B25F700E18645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008481D4B25F700E18645 /* ViewController.m */; };
+		8760084C1D4B25F700E18645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8760084A1D4B25F700E18645 /* Main.storyboard */; };
+		8760084E1D4B25F700E18645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8760084D1D4B25F700E18645 /* Assets.xcassets */; };
+		876008511D4B25F700E18645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8760084F1D4B25F700E18645 /* LaunchScreen.storyboard */; };
+		8760085C1D4B25F700E18645 /* TYRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8760085B1D4B25F700E18645 /* TYRefreshTests.m */; };
+		876008671D4B25F700E18645 /* TYRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008661D4B25F700E18645 /* TYRefreshUITests.m */; };
+		876008761D4B26A500E18645 /* TYRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008751D4B26A500E18645 /* TYRefreshHeader.m */; };
+		876008791D4B26B900E18645 /* TYRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008781D4B26B900E18645 /* TYRefreshFooter.m */; };
+		8760087B1D4B26C100E18645 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8760087A1D4B26C100E18645 /* arrow@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876008581D4B25F700E18645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876008361D4B25F600E18645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8760083D1D4B25F600E18645;
+			remoteInfo = TYRefresh;
+		};
+		876008631D4B25F700E18645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876008361D4B25F600E18645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8760083D1D4B25F600E18645;
+			remoteInfo = TYRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8760083E1D4B25F600E18645 /* TYRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876008421D4B25F700E18645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876008441D4B25F700E18645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		876008451D4B25F700E18645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		876008471D4B25F700E18645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		876008481D4B25F700E18645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8760084B1D4B25F700E18645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8760084D1D4B25F700E18645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876008501D4B25F700E18645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876008521D4B25F700E18645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876008571D4B25F700E18645 /* TYRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8760085B1D4B25F700E18645 /* TYRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRefreshTests.m; sourceTree = "<group>"; };
+		8760085D1D4B25F700E18645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876008621D4B25F700E18645 /* TYRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876008661D4B25F700E18645 /* TYRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRefreshUITests.m; sourceTree = "<group>"; };
+		876008681D4B25F700E18645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876008741D4B26A500E18645 /* TYRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRefreshHeader.h; sourceTree = "<group>"; };
+		876008751D4B26A500E18645 /* TYRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRefreshHeader.m; sourceTree = "<group>"; };
+		876008771D4B26B900E18645 /* TYRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRefreshFooter.h; sourceTree = "<group>"; };
+		876008781D4B26B900E18645 /* TYRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRefreshFooter.m; sourceTree = "<group>"; };
+		8760087A1D4B26C100E18645 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8760083B1D4B25F600E18645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876008541D4B25F700E18645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8760085F1D4B25F700E18645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876008351D4B25F600E18645 = {
+			isa = PBXGroup;
+			children = (
+				876008401D4B25F700E18645 /* TYRefresh */,
+				8760085A1D4B25F700E18645 /* TYRefreshTests */,
+				876008651D4B25F700E18645 /* TYRefreshUITests */,
+				8760083F1D4B25F600E18645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8760083F1D4B25F600E18645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8760083E1D4B25F600E18645 /* TYRefresh.app */,
+				876008571D4B25F700E18645 /* TYRefreshTests.xctest */,
+				876008621D4B25F700E18645 /* TYRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876008401D4B25F700E18645 /* TYRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				876008741D4B26A500E18645 /* TYRefreshHeader.h */,
+				876008751D4B26A500E18645 /* TYRefreshHeader.m */,
+				876008771D4B26B900E18645 /* TYRefreshFooter.h */,
+				876008781D4B26B900E18645 /* TYRefreshFooter.m */,
+				8760087A1D4B26C100E18645 /* arrow@2x.png */,
+				876008441D4B25F700E18645 /* AppDelegate.h */,
+				876008451D4B25F700E18645 /* AppDelegate.m */,
+				876008471D4B25F700E18645 /* ViewController.h */,
+				876008481D4B25F700E18645 /* ViewController.m */,
+				8760084A1D4B25F700E18645 /* Main.storyboard */,
+				8760084D1D4B25F700E18645 /* Assets.xcassets */,
+				8760084F1D4B25F700E18645 /* LaunchScreen.storyboard */,
+				876008521D4B25F700E18645 /* Info.plist */,
+				876008411D4B25F700E18645 /* Supporting Files */,
+			);
+			path = TYRefresh;
+			sourceTree = "<group>";
+		};
+		876008411D4B25F700E18645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876008421D4B25F700E18645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8760085A1D4B25F700E18645 /* TYRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				8760085B1D4B25F700E18645 /* TYRefreshTests.m */,
+				8760085D1D4B25F700E18645 /* Info.plist */,
+			);
+			path = TYRefreshTests;
+			sourceTree = "<group>";
+		};
+		876008651D4B25F700E18645 /* TYRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876008661D4B25F700E18645 /* TYRefreshUITests.m */,
+				876008681D4B25F700E18645 /* Info.plist */,
+			);
+			path = TYRefreshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8760083D1D4B25F600E18645 /* TYRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8760086B1D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefresh" */;
+			buildPhases = (
+				8760083A1D4B25F600E18645 /* Sources */,
+				8760083B1D4B25F600E18645 /* Frameworks */,
+				8760083C1D4B25F600E18645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYRefresh;
+			productName = TYRefresh;
+			productReference = 8760083E1D4B25F600E18645 /* TYRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876008561D4B25F700E18645 /* TYRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8760086E1D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefreshTests" */;
+			buildPhases = (
+				876008531D4B25F700E18645 /* Sources */,
+				876008541D4B25F700E18645 /* Frameworks */,
+				876008551D4B25F700E18645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876008591D4B25F700E18645 /* PBXTargetDependency */,
+			);
+			name = TYRefreshTests;
+			productName = TYRefreshTests;
+			productReference = 876008571D4B25F700E18645 /* TYRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876008611D4B25F700E18645 /* TYRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876008711D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefreshUITests" */;
+			buildPhases = (
+				8760085E1D4B25F700E18645 /* Sources */,
+				8760085F1D4B25F700E18645 /* Frameworks */,
+				876008601D4B25F700E18645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876008641D4B25F700E18645 /* PBXTargetDependency */,
+			);
+			name = TYRefreshUITests;
+			productName = TYRefreshUITests;
+			productReference = 876008621D4B25F700E18645 /* TYRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876008361D4B25F600E18645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tiny;
+				TargetAttributes = {
+					8760083D1D4B25F600E18645 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					876008561D4B25F700E18645 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8760083D1D4B25F600E18645;
+					};
+					876008611D4B25F700E18645 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8760083D1D4B25F600E18645;
+					};
+				};
+			};
+			buildConfigurationList = 876008391D4B25F600E18645 /* Build configuration list for PBXProject "TYRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876008351D4B25F600E18645;
+			productRefGroup = 8760083F1D4B25F600E18645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8760083D1D4B25F600E18645 /* TYRefresh */,
+				876008561D4B25F700E18645 /* TYRefreshTests */,
+				876008611D4B25F700E18645 /* TYRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8760083C1D4B25F600E18645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8760087B1D4B26C100E18645 /* arrow@2x.png in Resources */,
+				876008511D4B25F700E18645 /* LaunchScreen.storyboard in Resources */,
+				8760084E1D4B25F700E18645 /* Assets.xcassets in Resources */,
+				8760084C1D4B25F700E18645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876008551D4B25F700E18645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876008601D4B25F700E18645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8760083A1D4B25F600E18645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876008491D4B25F700E18645 /* ViewController.m in Sources */,
+				876008761D4B26A500E18645 /* TYRefreshHeader.m in Sources */,
+				876008461D4B25F700E18645 /* AppDelegate.m in Sources */,
+				876008431D4B25F700E18645 /* main.m in Sources */,
+				876008791D4B26B900E18645 /* TYRefreshFooter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876008531D4B25F700E18645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8760085C1D4B25F700E18645 /* TYRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8760085E1D4B25F700E18645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876008671D4B25F700E18645 /* TYRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876008591D4B25F700E18645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8760083D1D4B25F600E18645 /* TYRefresh */;
+			targetProxy = 876008581D4B25F700E18645 /* PBXContainerItemProxy */;
+		};
+		876008641D4B25F700E18645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8760083D1D4B25F600E18645 /* TYRefresh */;
+			targetProxy = 876008631D4B25F700E18645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8760084A1D4B25F700E18645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8760084B1D4B25F700E18645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8760084F1D4B25F700E18645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876008501D4B25F700E18645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876008691D4B25F700E18645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8760086A1D4B25F700E18645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8760086C1D4B25F700E18645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8760086D1D4B25F700E18645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8760086F1D4B25F700E18645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYRefresh.app/TYRefresh";
+			};
+			name = Debug;
+		};
+		876008701D4B25F700E18645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYRefresh.app/TYRefresh";
+			};
+			name = Release;
+		};
+		876008721D4B25F700E18645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYRefresh;
+			};
+			name = Debug;
+		};
+		876008731D4B25F700E18645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.TYRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876008391D4B25F600E18645 /* Build configuration list for PBXProject "TYRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876008691D4B25F700E18645 /* Debug */,
+				8760086A1D4B25F700E18645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8760086B1D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8760086C1D4B25F700E18645 /* Debug */,
+				8760086D1D4B25F700E18645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8760086E1D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8760086F1D4B25F700E18645 /* Debug */,
+				876008701D4B25F700E18645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876008711D4B25F700E18645 /* Build configuration list for PBXNativeTarget "TYRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876008721D4B25F700E18645 /* Debug */,
+				876008731D4B25F700E18645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876008361D4B25F600E18645 /* Project object */;
+}
